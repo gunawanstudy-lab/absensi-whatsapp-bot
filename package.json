@@ -1,0 +1,15 @@
+{
+  "name": "absensi-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Google Form -> WhatsApp Absensi Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "google-spreadsheet": "^4.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  }
+}
